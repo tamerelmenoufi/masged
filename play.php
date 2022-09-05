@@ -1,19 +1,21 @@
 <?php
 
+    include("lib/fn.php");
+
     function play(){
 
         $v = file_get_contents("/var/www/html/logs/log.txt");
-        $p = file_get_contents("/var/www/html/logs/play.txt");
+        $p = getPost();
 
         if(trim($v) == 'FIM' and trim($p) == 'PLAY'){
-            file_put_contents('/var/www/html/logs/play.txt', false);
+            getPost('cadastro');
             system("echo 'INICIO' > /var/www/html/logs/log.txt && mpg123 /var/www/html/mp3/azan.mp3 && echo 'FIM' > /var/www/html/logs/log.txt");
         }else if(trim($v) == 'INICIO' and trim($p) == 'PLAY'){
-            file_put_contents('/var/www/html/logs/play.txt', false);
+            getPost('cadastro');
             system("killall mpg123");
             system("echo 'INICIO' > /var/www/html/logs/log.txt && mpg123 /var/www/html/mp3/azan.mp3 && echo 'FIM' > /var/www/html/logs/log.txt");
         }else if(trim($p) == 'STOP'){
-            file_put_contents('/var/www/html/logs/play.txt', false);
+            getPost('cadastro');
             system("killall mpg123");
         }
 

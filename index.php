@@ -1,8 +1,11 @@
 <?php
 	date_default_timezone_set('America/Manaus');
 	session_start();
+	include("lib/fn.php");
+
 	if($_POST['acao']){
-		file_put_contents('logs/play.txt',$_POST['acao']);
+		getPost('cadastro',$_POST['acao']);
+		// file_put_contents('logs/play.txt',$_POST['acao']);
 		exit();
 	}
 
