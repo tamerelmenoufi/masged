@@ -10,3 +10,4 @@
         file_put_contents('./logs/play.txt', $_POST['val']);
     }
 
+    echo $dados;
