@@ -5,7 +5,7 @@
     function play(){
 
         $v = file_get_contents("/var/www/html/logs/log.txt");
-        $p = getPost();
+        echo $p = getPost();
 
         if(trim($v) == 'FIM' and trim($p) == 'PLAY'){
             getPost('cadastro');
