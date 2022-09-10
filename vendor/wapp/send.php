@@ -6,6 +6,7 @@
             array(
                 'numero' => $n, // Receivers phonei
                 'mensagem' => $m,
+                'chave' => md5('LIEAMRA')
             )
         );
         $opts = array('http' =>
