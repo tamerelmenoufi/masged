@@ -16,6 +16,7 @@
             getPost('cadastro');
             system("killall mpg123");
             system("echo 'INICIO' > /var/www/html/logs/log.txt && mpg123 /var/www/html/mp3/azan.mp3 && echo 'FIM' > /var/www/html/logs/log.txt");
+            SendWapp('92991886570', 'Momento de oração - Centro Islâmico do Amazonas');
         }else if(trim($p) == 'STOP'){
             getPost('cadastro');
             system("killall mpg123");
