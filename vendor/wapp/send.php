@@ -9,6 +9,9 @@
                 'chave' => md5('LIEAMRA')
             )
         );
+
+        echo $postdata;
+
         $opts = array('http' =>
             array(
                 'method' => 'POST',
