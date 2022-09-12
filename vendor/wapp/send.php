@@ -18,6 +18,6 @@
             )
         );
         $context = stream_context_create($opts);
-        $result = file_get_contents('http://wapp.mohatron.com/', false, $context);
+        echo $result = file_get_contents('http://wapp.mohatron.com/', false, $context);
 
     }
