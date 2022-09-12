@@ -4,7 +4,7 @@
 
         $postdata = http_build_query(
             array(
-                'numero' => $n, // Receivers phonei
+                'numero' => $n, // Receivers phone
                 'mensagem' => $m,
                 'chave' => md5('LIEAMRA')
             )
