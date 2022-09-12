@@ -10,8 +10,6 @@
             )
         );
 
-        echo $postdata;
-
         $opts = array('http' =>
             array(
                 'method' => 'POST',
