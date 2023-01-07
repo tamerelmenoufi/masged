@@ -1,0 +1,33 @@
+sudo apt-get purge wolfram-engine scratch scratch2 nuscratch sonic-pi idle3 -y
+
+sudo apt-get purge smartsim java-common minecraft-pi libreoffice* -y
+
+sudo apt-get clean
+
+sudo apt-get autoremove -y
+
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get install xdotool unclutter sed
+
+sudo raspi-config
+
+nano /home/yobom3/kiosk.sh
+
+sudo nano /lib/systemd/system/kiosk.service
+
+sudo systemctl enable kiosk.service
+
+sudo systemctl start kiosk.service
+
+///////////////////////PARA PARAR E DESABILITAR//////////////////
+
+sudo systemctl stop kiosk.service
+
+sudo systemctl disable kiosk.service
+
+
+BAIXAR OS DRIVES DA IMPRESSORA ELGIN
+wget http://yobom.com.br/rlvendas/.terminais/Elgin_Linux_Driver_v1.2.3.zip
