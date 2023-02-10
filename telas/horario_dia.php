@@ -1,4 +1,5 @@
 <?php
+	setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 	date_default_timezone_set('America/Manaus');
 	session_start();
 	include("../lib/fn.php");
@@ -13,10 +14,9 @@
 	$hijri = $dados->data->hijri;
 
 ?>
-
 <style>
 	.titulo{
-		font-size:50px;
+		font-size:40px;
 		color:#fff;
 		font-weight:bold;
 	}
@@ -31,8 +31,6 @@
 				</div>
 				<div class="titulo">
 					<?php
-					setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
-					date_default_timezone_set('America/Sao_Paulo');
 					echo strftime('%A, %d de %B de %Y', strtotime('today'));
 					?>
 				</div>
