@@ -52,8 +52,6 @@
 
 			Dados = ()=>{
 
-				$("#hoje").click(function(){
-					data = 'hoje';
 					$.ajax({
 						url:"telas/azan.php",
 						type:"POST",
@@ -77,7 +75,6 @@
 							console.log('Erro')
 						}
 					});
-				});
 
 			}
 
