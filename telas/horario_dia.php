@@ -16,7 +16,7 @@
 <style>
 	.titulo{
 		color:#fff;
-		width:40%;
+		width:45%;
 	}
 	.titulo p{
 		font-size:35px;
