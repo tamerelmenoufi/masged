@@ -29,14 +29,22 @@
 			<div class="d-flex justify-content-between">
 				<div class="titulo">
 					<button class="btn btn-success w-100">
-						Rijri <i class="fa-solid fa-calendar-day"></i> الهجرية
+						<div class="d-flex justify-content-between">
+							<span>Rijri</span>
+							<i class="fa-solid fa-calendar-day"></i>
+							<span>الهجرية</span>
+						</div>
 						<p><?=$hijri->weekday->ar?> <?=$hijri->day?> <?=$hijri->month->ar?> <?=$hijri->year?></p>
 						<p><?=$hijri->weekday->en?>, <?=$hijri->day?> <?=$hijri->month->en?> <?=$hijri->year?></p>
 					</button>
 				</div>
 				<div class="titulo">
 					<button class="btn btn-success w-100">
-						Nascimento <i class="fa-solid fa-calendar-day"></i> الميلادي
+						<div class="d-flex justify-content-between">
+							<span>Nascimento</span>
+							<i class="fa-solid fa-calendar-day"></i>
+							<span>الميلادي</span>
+						</div>
 						<p><?=dataArabe();?></p>
 						<p><?=dataPort();?></p>
 					</button>
