@@ -90,15 +90,15 @@
 				<div>
 				<button type="button" class="btn btn-outline-secondary horarios">
 					<div class="d-flex justify-content-between">
-						<div>
+						<div class="col">
 							<i class="fa-solid fa-person-praying"></i>
 							<?=strtoupper(portugues($c))?>
 						</div>
-						<div>
+						<div class="col">
 							<i class="fa-regular fa-clock"></i>
 							<?=c($h->h)?>:<?=c($h->m)?>
 						</div>
-						<div>
+						<div class="col">
 							<i class="fa-solid fa-person-praying"></i>
 							<?=arabe($c)?>
 						</div>
