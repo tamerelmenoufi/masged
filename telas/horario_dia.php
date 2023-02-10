@@ -7,7 +7,7 @@
 	$dados = json_decode($dados);
 
 	// var_dump($dados);
-	// print_r($dados['hijri']);
+	print_r($dados['hijri']);
 
 ?>
 <div class="container">
