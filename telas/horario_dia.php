@@ -8,7 +8,7 @@
 
 	var_dump($dados);
 	echo "<hr>";
-	print_r($dados->hijri);
+	print_r($dados->data->hijri);
 
 ?>
 <div class="container">
