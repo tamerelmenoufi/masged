@@ -26,13 +26,13 @@
 		font-size:20px;
 	}
 	.horarios{
-		margin-top:50px;
+		margin-bottom:50px;
 		width:100%;
 		font-size:50px;
 		font-weight:bold;
 		color:#ffffff;
-		padding-top:25px;
-		padding-bottom:25px;
+		padding-top:50px;
+		padding-bottom:50px;
 		border:solid 10px green;
 		border-radius:25px;
 	}
@@ -72,7 +72,7 @@
 
 
 	<div class="row mt-3">
-		<div class="col-12">
+		<div class="col-12 mt-3">
 
 		<?php
 
