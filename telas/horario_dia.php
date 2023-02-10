@@ -18,6 +18,7 @@
 		font-size:40px;
 		color:#fff;
 		font-weight:bold;
+		width:40%;
 	}
 </style>
 <div class="container">
