@@ -3,6 +3,11 @@
 	session_start();
 	include("../lib/fn.php");
 
+	$dados = file_get_contents("http://api.aladhan.com/v1/gToH?date=10-02-2023");
+	$dados = json_decode($dados);
+
+	var_dump($dados);
+
 ?>
 <div class="container">
 	<div class="row">
