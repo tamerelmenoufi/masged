@@ -32,7 +32,7 @@
 			<div class="d-flex justify-content-between">
 				<div class="titulo">
 					<button class="btn btn-success w-100">
-						<div class="d-flex justify-content-between">
+						<div class="d-flex justify-content-between rotulo">
 							<span>Rijri</span>
 							<i class="fa-solid fa-calendar-day"></i>
 							<span>الهجرية</span>
