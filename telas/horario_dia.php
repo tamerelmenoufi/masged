@@ -28,9 +28,6 @@
 	.horarios{
 		margin-top:50px;
 		width:100%;
-	}
-	.horarios button{
-		width:100%;
 		font-size:50px;
 		font-weight:bold;
 		color:#a1a1a1;
