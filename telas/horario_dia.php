@@ -38,7 +38,7 @@
 		background:#fff;
 	}
 	.hora{
-		font-size:100px;
+		font-size:150px;
 	}
 </style>
 <div class="container mt-3">
