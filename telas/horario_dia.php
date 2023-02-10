@@ -18,7 +18,7 @@
 		<div class="col-12">
 			<div class="d-flex justify-content-between">
 				<span class="titulo"><?=$hijri->weekday->en?>, <?=$hijri->day?> <?=$hijri->month->en?> <?=$hijri->year?></span>
-				<span class="titulo"><?=$hijri->weekday->ar?>, <?=$hijri->day?> <?=$hijri->month->ar?> <?=$hijri->year?></span>
+				<span class="titulo"><?=$hijri->weekday->ar?> <?=$hijri->day?> <?=$hijri->month->ar?> <?=$hijri->year?></span>
 			</div>
 
 		</div>
