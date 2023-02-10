@@ -29,8 +29,9 @@
 					<p><?=$hijri->weekday->en?>, <?=$hijri->day?> <?=$hijri->month->en?> <?=$hijri->year?></p>
 				</div>
 				<div class="titulo">
-					<p><?=dataPort();?></p>
 					<p><?=dataArabe();?></p>
+					<p><?=dataPort();?></p>
+
 				</div>
 			</div>
 
