@@ -49,7 +49,7 @@
 
 					$hoje = $_SESSION['data'];
 
-					$dados = file_get_contents("dados/horas-salah.json");
+					$dados = file_get_contents("../dados/horas-salah.json");
 
 					$Json = json_decode($dados);
 
