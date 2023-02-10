@@ -59,7 +59,7 @@
 						},
 						error:function(){
 							$.ajax({
-								url:"telas/azan.php",
+								url:"telas/horario_dia.php",
 								success:function(dados){
 									$(".masged").html(dados);
 								}
