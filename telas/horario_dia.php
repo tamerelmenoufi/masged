@@ -74,13 +74,11 @@
 
 			$Json = json_decode($dados);
 
-			$cron = false;
-
+			print_r($Json);
 
 			foreach($Json as $mes => $dias){
 
 				foreach($dias as $dia => $s){
-					$dt = $hoje;
 				foreach($s as $c => $h){
 				?>
 
