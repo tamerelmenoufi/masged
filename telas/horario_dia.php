@@ -74,11 +74,14 @@
 
 			$Json = json_decode($dados);
 
-			print_r($Json);
-
 			foreach($Json as $mes => $dias){
 
 				foreach($dias as $dia => $s){
+					$dt = $_SESSION['ano'].'-'.c($mes).'-'.c($dia);
+
+					echo "$dt == $hoje";
+					if($dt == $hoje){
+
 				foreach($s as $c => $h){
 				?>
 
@@ -97,7 +100,8 @@
 
 				<?php
 				}
-				}
+			}
+			}
 			}
 		?>
 
