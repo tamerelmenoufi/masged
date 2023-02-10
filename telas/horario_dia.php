@@ -15,7 +15,7 @@
 	<div class="row">
 		<div class="col-12">
 			<div class="d-flex justify-content-between">
-				<span class="titulo"><?=$dados->data->weekday->en?>, <?=$dados->data->day?> <?=$dados->data->month->en?> <?=$dados->data->year?></span>
+				<span class="titulo"><?=$dados->data->hijri->weekday->en?>, <?=$dados->data->hijri->day?> <?=$dados->data->hijri->month->en?> <?=$dados->data->hijri->year?></span>
 				<span class="titulo">Arabe</span>
 			</div>
 
