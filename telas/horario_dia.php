@@ -79,7 +79,6 @@
 				foreach($dias as $dia => $s){
 					$dt = $_SESSION['ano'].'-'.c($mes).'-'.c($dia);
 
-					echo "$dt == $hoje";
 					if($dt == $hoje){
 
 				foreach($s as $c => $h){
