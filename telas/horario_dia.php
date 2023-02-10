@@ -83,7 +83,7 @@
 
 				foreach($s as $c => $h){
 				?>
-
+				<div>
 				<button type="button" class="btn btn-outline-secondary horarios">
 					<div class="d-flex justify-content-between">
 						<div>
@@ -96,7 +96,7 @@
 						</div>
 					</div>
 				</button>
-
+				</div>
 				<?php
 				}
 			}
