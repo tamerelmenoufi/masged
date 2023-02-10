@@ -91,3 +91,31 @@ function dataArabe(){
 function c($c){
     return str_pad($c , 2 , '0' , STR_PAD_LEFT);
 }
+
+function arabe($c){
+
+    $salah = array(
+        'fajir' => 'الفجر',
+        'duhr' => 'الظهر',
+        'asir' => 'العصر',
+        'makrib' => 'المغرب',
+        'isha' => 'العشاء'
+    );
+
+    return $salah[$c];
+}
+
+function portugues($c){
+    $salah = array(
+        'fajir' => 'Alvorada',
+        'duhr' => 'Meio dia',
+        'asir' => 'Tarde',
+        'makrib' => 'Pôr do Sol',
+        'isha' => 'Noite'
+    );
+
+    return $salah[$c];
+}
+
+
+

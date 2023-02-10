@@ -28,9 +28,9 @@
 	.horarios{
 		margin-top:50px;
 		width:100%;
-		font-size:50px;
+		font-size:80px;
 		font-weight:bold;
-		color:#a1a1a1;
+		color:#ffffff;
 	}
 </style>
 <div class="container mt-3">
@@ -92,11 +92,15 @@
 					<div class="d-flex justify-content-between">
 						<div>
 							<i class="fa-solid fa-person-praying"></i>
-							<?=strtoupper($c)?>
+							<?=strtoupper(portugues($c))?>
 						</div>
 						<div>
 							<i class="fa-regular fa-clock"></i>
 							<?=c($h->h)?>:<?=c($h->m)?>
+						</div>
+						<div>
+							<i class="fa-solid fa-person-praying"></i>
+							<?=arabe($c)?>
 						</div>
 					</div>
 				</button>
