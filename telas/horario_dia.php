@@ -30,11 +30,13 @@
 		width:100%;
 		font-size:50px;
 		font-weight:bold;
-		color:#ffffff;
+		color:#333333;
 		padding-top:50px;
 		padding-bottom:50px;
 		border:solid 10px green;
 		border-radius:25px;
+		background:#fff;
+
 	}
 </style>
 <div class="container mt-3">
