@@ -29,7 +29,7 @@
 		margin-top:50px;
 		width:100%;
 	}
-	.horarios button:{
+	.horarios button{
 		width:100%;
 		font-size:50px;
 		font-weight:bold;
