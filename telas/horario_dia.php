@@ -16,11 +16,11 @@
 <style>
 	.titulo{
 		color:#fff;
-		font-weight:bold;
 		width:40%;
 	}
 	.titulo p{
-		font-size:40px;
+		font-size:35px;
+		font-weight:bold;
 	}
 </style>
 <div class="container">
