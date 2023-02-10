@@ -6,13 +6,21 @@
 	$dados = file_get_contents("http://api.aladhan.com/v1/gToH?date=".$hoje);
 	$dados = json_decode($dados);
 
-	var_dump($dados);
-	echo "<hr>";
-	print_r($dados->data->hijri);
+	// var_dump($dados);
+	// echo "<hr>";
+	// print_r($dados->data->hijri);
 
 	$hijri = $dados->data->hijri;
 
 ?>
+
+<style>
+	.titulo{
+		font-size:50px;
+		color:#fff;
+		font-weight:bold;
+	}
+</style>
 <div class="container">
 	<div class="row">
 		<div class="col-12">
