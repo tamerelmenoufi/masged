@@ -25,9 +25,13 @@
 	.rotulo span{
 		font-size:20px;
 	}
+	.horarios{
+
+	}
 </style>
 <div class="container mt-3">
-	<div class="row">
+
+	<div class="row mt-3">
 		<div class="col-12">
 			<div class="d-flex justify-content-between">
 				<div class="titulo">
@@ -55,6 +59,59 @@
 
 				</div>
 			</div>
+		</div>
+	</div>
+
+
+	<div class="row mt-3">
+		<div class="col-12">
+
+
+
+
+		<?php
+
+			$hoje = $_SESSION['data'];
+
+			$dados = file_get_contents("../dados/horas-salah.json");
+
+			$Json = json_decode($dados);
+
+			$cron = false;
+
+
+			foreach($Json as $mes => $dias){
+
+				foreach($dias as $dia => $s){
+					$dt = $_SESSION['ano'].'-'.c($mes).'-'.c($dia);
+					if($dt == $hoje){
+
+				foreach($s as $c => $h){
+				?>
+
+				<button type="button" class="btn btn-outline-secondary horarios">
+					<div class="d-flex justify-content-between">
+						<div>
+							<i class="fa-solid fa-person-praying"></i>
+							<?=strtoupper($c)?>
+						</div>
+						<div>
+							<i class="fa-regular fa-clock"></i>
+							<?=c($h->h)?>:<?=c($h->m)?>
+						</div>
+					</div>
+				</button>
+
+				<?php
+				}
+
+					}
+				}
+			}
+		?>
+
+
+
 
 		</div>
 	</div>
