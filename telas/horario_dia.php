@@ -25,8 +25,17 @@
 	<div class="row">
 		<div class="col-12">
 			<div class="d-flex justify-content-between">
-				<span class="titulo"><?=$hijri->weekday->en?>, <?=$hijri->day?> <?=$hijri->month->en?> <?=$hijri->year?></span>
-				<span class="titulo"><?=$hijri->weekday->ar?> <?=$hijri->day?> <?=$hijri->month->ar?> <?=$hijri->year?></span>
+				<div class="titulo">
+					<p><?=$hijri->weekday->en?>, <?=$hijri->day?> <?=$hijri->month->en?> <?=$hijri->year?></p>
+					<p><?=$hijri->weekday->ar?> <?=$hijri->day?> <?=$hijri->month->ar?> <?=$hijri->year?></p>
+				</div>
+				<div class="titulo">
+					<?php
+					setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+					date_default_timezone_set('America/Sao_Paulo');
+					echo strftime('%A, %d de %B de %Y', strtotime('today'));
+					?>
+				</div>
 			</div>
 
 		</div>
