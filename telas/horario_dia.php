@@ -28,9 +28,13 @@
 	.horarios{
 		margin-top:50px;
 		width:100%;
-		font-size:60px;
+		font-size:50px;
 		font-weight:bold;
 		color:#ffffff;
+		padding-top:25px;
+		padding-bottom:25px;
+		border:solid 10px green;
+		border-radius:25px;
 	}
 </style>
 <div class="container mt-3">
@@ -88,7 +92,7 @@
 				foreach($s as $c => $h){
 				?>
 				<div>
-				<button type="button" class="btn btn-outline-secondary horarios">
+				<button type="button" class="horarios">
 					<div class="d-flex justify-content-between">
 						<div class="col">
 							<i class="fa-solid fa-person-praying"></i>
