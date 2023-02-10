@@ -46,10 +46,44 @@ function dataPort(){
         'Jun' => 'Jun',
         'Jul' => 'Jul',
         'Aug' => 'Ago',
-        'Nov' => 'Nov',
         'Sep' => 'Set',
         'Oct' => 'Out',
+        'Nov' => 'Nov',
         'Dec' => 'Dez'
+    );
+ return $data= $semana["$data"] . ", {$dia} de " . $mes_extenso["$mes"] . " de {$ano}";
+}
+
+
+function dataArabe(){
+    $data = date('D');
+    $mes = date('M');
+    $dia = date('d');
+    $ano = date('Y');
+
+    $semana = array(
+        'Sun' => 'الأحد',
+        'Mon' => 'الأثنين',
+        'Tue' => 'الثلاثاء',
+        'Wed' => 'الأربعاء',
+        'Thu' => 'الخميس',
+        'Fri' => 'الجمعة',
+        'Sat' => 'السبت'
+    );
+
+    $mes_extenso = array(
+        'Jan' => 'يناير',
+        'Feb' => 'فبراير',
+        'Mar' => 'مارس',
+        'Apr' => 'ابريل',
+        'May' => 'مايو',
+        'Jun' => 'يونيو',
+        'Jul' => 'يوليو',
+        'Aug' => 'أغسطس',
+        'Sep' => 'سبتمبر',
+        'Oct' => 'أكتوبر',
+        'Nov' => 'نوفمبر',
+        'Dec' => 'ديسمبر'
     );
  return $data= $semana["$data"] . ", {$dia} de " . $mes_extenso["$mes"] . " de {$ano}";
 }
