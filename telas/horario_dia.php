@@ -66,12 +66,9 @@
 	<div class="row mt-3">
 		<div class="col-12">
 
-
-
-
 		<?php
 
-			$hoje = $_SESSION['data'];
+			$hoje = date("Y-m-d");
 
 			$dados = file_get_contents("../dados/horas-salah.json");
 
