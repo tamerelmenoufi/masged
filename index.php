@@ -38,8 +38,8 @@
 		body{
 			width:100%;
 			height:100%;
-			background-image:url("img/fundo.jpg?x");
-			background-size:100% 100%;
+			background-image:url("img/fundo.jpg");
+			background-size:cover;
 		}
 	</style>
 </head>
