@@ -54,20 +54,12 @@
 
 					$.ajax({
 						url:"telas/azan.php",
-						type:"POST",
-						data:{
-							data
-						},
 						success:function(dados){
 							$(".masged").html(dados);
 						},
 						error:function(){
 							$.ajax({
 								url:"telas/azan.php",
-								type:"POST",
-								data:{
-									data
-								},
 								success:function(dados){
 									$(".masged").html(dados);
 								}
