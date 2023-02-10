@@ -1,5 +1,4 @@
 <?php
-	setlocale(LC_TIME, 'portuguese');
 	date_default_timezone_set('America/Manaus');
 	session_start();
 	include("../lib/fn.php");
@@ -31,7 +30,7 @@
 				</div>
 				<div class="titulo">
 					<?php
-					echo strftime('%A, %d de %B de %Y', strtotime('today'));
+					echo dataPort();
 					?>
 				</div>
 			</div>
