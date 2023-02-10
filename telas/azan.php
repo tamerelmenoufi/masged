@@ -126,7 +126,7 @@
 						data
 					},
 					success:function(dados){
-						window.location.href='./';
+						// window.location.href='./';
 					}
 				});
 			});

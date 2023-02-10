@@ -55,7 +55,7 @@
 				$("#hoje").click(function(){
 					data = 'hoje';
 					$.ajax({
-						url:"index.php",
+						url:"telas/azan.php",
 						type:"POST",
 						data:{
 							data
@@ -65,7 +65,7 @@
 						},
 						error:function(){
 							$.ajax({
-								url:"index.php",
+								url:"telas/azan.php",
 								type:"POST",
 								data:{
 									data
