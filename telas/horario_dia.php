@@ -1,5 +1,5 @@
 <?php
-	setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+	setlocale(LC_TIME, 'portuguese');
 	date_default_timezone_set('America/Manaus');
 	session_start();
 	include("../lib/fn.php");
