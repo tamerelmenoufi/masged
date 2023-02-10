@@ -22,6 +22,9 @@
 		font-size:35px;
 		font-weight:bold;
 	}
+	.rotulo span{
+		font-size:14px;
+	}
 </style>
 <div class="container mt-3">
 	<div class="row">
@@ -40,7 +43,7 @@
 				</div>
 				<div class="titulo">
 					<button class="btn btn-success w-100">
-						<div class="d-flex justify-content-between">
+						<div class="d-flex justify-content-between rotulo">
 							<span>Nascimento</span>
 							<i class="fa-solid fa-calendar-day"></i>
 							<span>الميلادي</span>
