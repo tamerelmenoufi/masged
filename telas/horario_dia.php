@@ -10,13 +10,15 @@
 	echo "<hr>";
 	print_r($dados->data->hijri);
 
+	$hijri = $dados->data->hijri;
+
 ?>
 <div class="container">
 	<div class="row">
 		<div class="col-12">
 			<div class="d-flex justify-content-between">
-				<span class="titulo"><?=$dados->data->hijri->weekday->en?>, <?=$dados->data->hijri->day?> <?=$dados->data->hijri->month->en?> <?=$dados->data->hijri->year?></span>
-				<span class="titulo">Arabe</span>
+				<span class="titulo"><?=$hijri->weekday->en?>, <?=$hijri->day?> <?=$hijri->month->en?> <?=$hijri->year?></span>
+				<span class="titulo"><?=$hijri->weekday->ar?>, <?=$hijri->day?> <?=$hijri->month->ar?> <?=$hijri->year?></span>
 			</div>
 
 		</div>
