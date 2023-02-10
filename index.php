@@ -34,6 +34,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php include("lib/header.php"); ?>
 	<title>MESQUITA</title>
+	<style>
+		body{
+			width:100%;
+			height:100%;
+			background-image:url("img/fundo.jpg");
+			background-size:100% 100%;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
