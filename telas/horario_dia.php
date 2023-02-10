@@ -23,7 +23,7 @@
 		font-weight:bold;
 	}
 	.rotulo span{
-		font-size:14px;
+		font-size:20px;
 	}
 </style>
 <div class="container mt-3">
