@@ -98,7 +98,7 @@
 					<div class="d-flex justify-content-between">
 						<div class="col">
 							<i class="fa-solid fa-person-praying"></i>
-							<?=strtoupper(portugues($c))?>
+							<?=portugues($c)?>
 						</div>
 						<div class="col">
 							<i class="fa-regular fa-clock"></i>
