@@ -15,7 +15,7 @@
 	<div class="row">
 		<div class="col-12">
 			<div class="d-flex justify-content-between">
-				<span class="titulo">Portuges</span>
+				<span class="titulo"><?=$dados->data->weekday->en?>, <?=$dados->data->day?> <?=$dados->data->month->en?> <?=$dados->data->year?></span>
 				<span class="titulo">Arabe</span>
 			</div>
 
