@@ -14,7 +14,11 @@
 <div class="container">
 	<div class="row">
 		<div class="col-12">
-			<span class="titulo">Manaus</span>
+			<div class="d-flex justify-content-between">
+				<span class="titulo">Portuges</span>
+				<span class="titulo">Arabe</span>
+			</div>
+
 		</div>
 	</div>
 </div>
