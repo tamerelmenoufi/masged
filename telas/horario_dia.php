@@ -15,10 +15,12 @@
 ?>
 <style>
 	.titulo{
-		font-size:40px;
 		color:#fff;
 		font-weight:bold;
 		width:40%;
+	}
+	.titulo p{
+		font-size:40px;
 	}
 </style>
 <div class="container">
