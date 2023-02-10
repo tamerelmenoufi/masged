@@ -21,9 +21,6 @@
 	}
 	// $_SESSION['data'] = date("Y-m-d");
 
-	function c($c){
-		return str_pad($c , 2 , '0' , STR_PAD_LEFT);
-	}
 
 ?>
 <div class="container">

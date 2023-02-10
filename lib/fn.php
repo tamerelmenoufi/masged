@@ -87,3 +87,7 @@ function dataArabe(){
     );
  return $semana["$data"] . " {$dia} " . $mes_extenso["$mes"] . " {$ano}";
 }
+
+function c($c){
+    return str_pad($c , 2 , '0' , STR_PAD_LEFT);
+}
