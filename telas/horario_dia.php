@@ -36,7 +36,9 @@
 		border:solid 10px green;
 		border-radius:25px;
 		background:#fff;
-
+	}
+	.hora{
+		font-size:100px;
 	}
 </style>
 <div class="container mt-3">
@@ -100,13 +102,13 @@
 							<i class="fa-solid fa-person-praying"></i>
 							<?=portugues($c)?>
 						</div>
-						<div class="col">
+						<div class="col hora">
 							<i class="fa-regular fa-clock"></i>
 							<?=c($h->h)?>:<?=c($h->m)?>
 						</div>
 						<div class="col">
-							<i class="fa-solid fa-person-praying"></i>
 							<?=arabe($c)?>
+							<i class="fa-solid fa-person-praying"></i>
 						</div>
 					</div>
 				</button>
