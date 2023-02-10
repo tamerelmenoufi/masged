@@ -108,7 +108,7 @@
 						</div>
 						<div class="col">
 							<?=arabe($c)?>
-							<i class="fa-solid fa-person-praying" style="transform: rotate(90deg);"></i>
+							<i class="fa-solid fa-person-praying" style="transform: rotateY(180deg);"></i>
 						</div>
 					</div>
 				</button>
