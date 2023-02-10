@@ -85,5 +85,5 @@ function dataArabe(){
         'Nov' => 'نوفمبر',
         'Dec' => 'ديسمبر'
     );
- return $data= $semana["$data"] . ", {$dia} de " . $mes_extenso["$mes"] . " de {$ano}";
+ return $semana["$data"] . " {$dia} " . $mes_extenso["$mes"] . " {$ano}";
 }
