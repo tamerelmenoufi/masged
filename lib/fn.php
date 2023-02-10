@@ -95,19 +95,19 @@ function c($c){
 function arabe($c){
 
     $salah = array(
-        '' => 'الفجر',
+        'fajr' => 'الفجر',
         'duhr' => 'الظهر',
         'asir' => 'العصر',
         'makrib' => 'المغرب',
         'isha' => 'العشاء'
     );
 
-    return $salah[$c];
+    return $salah[$c].$c;
 }
 
 function portugues($c){
     $salah = array(
-        '' => 'Alvorada',
+        'fajr' => 'Alvorada',
         'duhr' => 'Meio dia',
         'asir' => 'Tarde',
         'makrib' => 'Pôr do Sol',
