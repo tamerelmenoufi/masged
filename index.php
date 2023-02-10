@@ -39,7 +39,7 @@
 			width:100%;
 			height:100%;
 			background-image:url("img/fundo.jpg");
-			background-size:cover;
+			background-size:100% auto;
 		}
 	</style>
 </head>
