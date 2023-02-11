@@ -126,7 +126,7 @@
 					<div class="row" style="margin-bottom:30px;">
 						<div class="col-12">
 							<div class="titulo w-100">
-								<button class="btn btn-success w-100">
+								<button class="btn btn-success w-100" style="padding:0;">
 									<div class="row">
 										<div class="col-12 text-center">
 											<span><i class="fa-regular fa-clock" style="font-size:250px; margin-right:70px;"></i></span>
