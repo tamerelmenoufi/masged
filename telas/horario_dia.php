@@ -128,8 +128,8 @@
 							<div class="titulo w-100">
 								<button class="btn btn-success w-100">
 									<div class="row">
-										<div class="col-2 text-center" style="font-size:200px;"><i class="fa-regular fa-clock"></i></div>
-										<div class="col-10 text-center">
+										<div class="col-12 text-center">
+											<span style="font-size:200px;"><i class="fa-regular fa-clock"></i></span><br>
 											<span style="font-size:150px;"><?=date("H:i")?></span><br>
 											<span style="font-size:150px;"><?=date("d/m/Y")?></span>
 										</div>
