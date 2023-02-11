@@ -23,7 +23,7 @@
 		font-weight:bold;
 	}
 	.rotulo span{
-		font-size:15px;
+		font-size:30px;
 	}
 	.horarios{
 		margin-bottom:10px;
