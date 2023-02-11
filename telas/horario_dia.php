@@ -19,16 +19,16 @@
 		width:45%;
 	}
 	.titulo p, .titulo i{
-		font-size:35px;
+		font-size:20px;
 		font-weight:bold;
 	}
 	.rotulo span{
-		font-size:20px;
+		font-size:12px;
 	}
 	.horarios{
 		margin-bottom:50px;
 		width:100%;
-		font-size:50px;
+		font-size:25px;
 		font-weight:bold;
 		color:#333333;
 		padding-top:50px;
@@ -38,7 +38,7 @@
 		background:#fff;
 	}
 	.hora{
-		font-size:150px;
+		font-size:75px;
 	}
 </style>
 <div class="container mt-3">
@@ -129,8 +129,8 @@
 								<button class="btn btn-success w-100" style="padding:0;">
 									<div class="row">
 										<div class="col-12 text-center">
-											<span><i class="fa-regular fa-clock" style="font-size:250px; margin-right:70px;"></i></span>
-											<span style="font-size:300px;"><?=date("H:i")?></span>
+											<span><i class="fa-regular fa-clock" style="font-size:125px; margin-right:70px;"></i></span>
+											<span style="font-size:150px;"><?=date("H:i")?></span>
 										</div>
 									</div>
 								</button>
