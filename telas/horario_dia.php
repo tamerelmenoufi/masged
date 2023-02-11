@@ -127,9 +127,9 @@
 						<div class="col-12">
 							<div class="titulo w-100">
 								<button class="btn btn-success w-100">
-									<p><i class="fa-regular fa-clock"></i></p>
-									<p><?=date("d/m/Y")?></p>
-									<p><?=date("H:i")?></p>
+									<div class="col-2"><i class="fa-regular fa-clock"></i></div>
+									<div class="col-5"><?=date("d/m/Y")?></div>
+									<div class="col-5"><?=date("H:i")?></div>
 								</button>
 							</div>
 						</div>
