@@ -40,7 +40,7 @@
 		font-size:75px;
 	}
 </style>
-<div style="position:fixed; top:0; right:0; bottom:0; left:0; padding:30px; border:solid 5px red">
+<div style="position:fixed; top:0; right:0; bottom:0; left:0; padding:30px; border:solid 5px red;">
 
 	<div class="row mt-3">
 		<div class="col-12">
