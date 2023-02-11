@@ -31,7 +31,7 @@
 		font-weight:bold;
 		color:#333333;
 		padding-top:30px;
-		padding-bottom:25px;
+		padding-bottom:30px;
 		border:solid 10px green;
 		border-radius:25px;
 		background:#fff;
