@@ -103,7 +103,7 @@
 							<?=portugues($c)?>
 						</div>
 						<div class="col hora">
-							<i class="fa-regular fa-clock"></i>
+							<!-- <i class="fa-regular fa-clock"></i> -->
 							<?=c($h->h)?>:<?=c($h->m)?>
 						</div>
 						<div class="col">
