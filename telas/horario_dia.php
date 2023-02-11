@@ -38,7 +38,7 @@
 		background:#fff;
 	}
 	.hora{
-		font-size:113px;
+		font-size:115px;
 	}
 </style>
 
