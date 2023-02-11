@@ -131,7 +131,7 @@
 									<div class="row">
 										<div class="col-12 text-center">
 											<span><i class="fa-regular fa-clock" style="font-size:125px; margin-right:70px;"></i></span>
-											<span style="font-size:150px;"><?=date("H:i")?></span>
+											<span style="font-size:150px; font-weight:bold"><?=date("H:i")?></span>
 										</div>
 									</div>
 								</button>
