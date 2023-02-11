@@ -26,13 +26,12 @@
 		font-size:12px;
 	}
 	.horarios{
-		margin-bottom:50px;
 		width:100%;
 		font-size:25px;
 		font-weight:bold;
 		color:#333333;
 		padding-top:50px;
-		padding-bottom:50px;
+		padding-bottom:25px;
 		border:solid 10px green;
 		border-radius:25px;
 		background:#fff;
