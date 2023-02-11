@@ -41,7 +41,7 @@
 		font-size:75px;
 	}
 </style>
-<div class="container mt-3">
+<div class="mt-3">
 
 	<div class="row mt-3">
 		<div class="col-12">
