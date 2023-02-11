@@ -35,7 +35,7 @@
 		padding-bottom:10px;
 		border:solid 5px green;
 		border-radius:25px;
-		background:rgb(255,255,255, 1);
+		background:rgb(255,255,255, 0.5);
 	}
 	.hora{
 		font-size:115px;
