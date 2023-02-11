@@ -123,6 +123,20 @@
 
 
 
+					<div class="row mt-3">
+						<div class="col-12">
+							<div class="titulo">
+								<button class="btn btn-success w-100">
+									<p><i class="fa-regular fa-clock"></i></p>
+									<p><?=date("d/m/Y")?></p>
+									<p><?=date("H:i")?></p>
+								</button>
+							</div>
+						</div>
+					</div>
+
+
+
 		</div>
 	</div>
 </div>
