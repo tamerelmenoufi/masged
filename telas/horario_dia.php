@@ -123,9 +123,9 @@
 
 
 
-					<div class="row mt-3">
+					<div class="row" style="margin-bottom:30px;">
 						<div class="col-12">
-							<div class="titulo">
+							<div class="titulo w-100">
 								<button class="btn btn-success w-100">
 									<p><i class="fa-regular fa-clock"></i></p>
 									<p><?=date("d/m/Y")?></p>
