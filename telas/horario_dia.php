@@ -129,9 +129,9 @@
 								<button class="btn btn-success w-100">
 									<div class="row">
 										<div class="col-12 text-center">
-											<span><i class="fa-regular fa-clock" style="font-size:150px; margin-right:30px;"></i></span>
-											<span style="font-size:200px;"><?=date("H:i")?></span><br>
-											<span style="font-size:50px;"><?=date("d/m/Y")?></span>
+											<span><i class="fa-regular fa-clock" style="font-size:200px; margin-right:70px;"></i></span>
+											<span style="font-size:250px;"><?=date("H:i")?></span><br>
+											<span style="font-size:30px;"><?=date("d/m/Y")?></span>
 										</div>
 									</div>
 								</button>
