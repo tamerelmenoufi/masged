@@ -26,6 +26,7 @@
 		font-size:12px;
 	}
 	.horarios{
+		margin-bottom:30px;
 		width:100%;
 		font-size:25px;
 		font-weight:bold;
