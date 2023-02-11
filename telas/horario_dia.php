@@ -33,7 +33,7 @@
 		color:#333333;
 		padding-top:10px;
 		padding-bottom:10px;
-		border:solid 10px green;
+		border:solid 5px green;
 		border-radius:25px;
 		background:#fff;
 	}
