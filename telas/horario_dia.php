@@ -30,7 +30,7 @@
 		font-size:25px;
 		font-weight:bold;
 		color:#333333;
-		padding-top:50px;
+		padding-top:30px;
 		padding-bottom:25px;
 		border:solid 10px green;
 		border-radius:25px;
