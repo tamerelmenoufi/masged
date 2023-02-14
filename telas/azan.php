@@ -117,7 +117,7 @@
 			$("#hoje").click(function(){
 				data = 'hoje';
 				$.ajax({
-					url:"tela/azan.php",
+					url:"telas/azan.php",
 					type:"POST",
 					data:{
 						data
@@ -131,7 +131,7 @@
 			$("#data").change(function(){
 				data = $(this).val();
 				$.ajax({
-					url:"tela/azan.php",
+					url:"telas/azan.php",
 					type:"POST",
 					data:{
 						data
@@ -145,7 +145,7 @@
 			$("button[acao]").click(function(){
 				acao = $(this).attr("acao");
 				$.ajax({
-					url:"tela/azan.php",
+					url:"telas/azan.php",
 					type:"POST",
 					data:{
 						acao
