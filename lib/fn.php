@@ -107,11 +107,11 @@ function arabe($c){
 
 function portugues($c){
     $salah = array(
-        'fagir' => 'Alvorada',
-        'duhr' => 'Meio dia',
-        'asir' => 'Tarde',
-        'makrib' => 'Pôr do Sol',
-        'isha' => 'Noite'
+        'fagir' => 'Fajar',
+        'duhr' => 'Zohar',
+        'asir' => 'Asar',
+        'makrib' => 'Maghrib',
+        'isha' => 'Isha'
     );
 
     return $salah[$c];
