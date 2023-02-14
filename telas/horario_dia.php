@@ -99,7 +99,7 @@
 				<div>
 				<button type="button" class="horarios">
 					<div class="d-flex justify-content-between">
-						<div class="col">
+						<div class="col text-start">
 							<i class="fa-solid fa-person-praying"></i>
 							<?=portugues($c)?>
 						</div>
@@ -107,7 +107,7 @@
 							<!-- <i class="fa-regular fa-clock"></i> -->
 							<?=c($h->h)?>:<?=c($h->m)?>
 						</div>
-						<div class="col">
+						<div class="col text-end">
 							<?=arabe($c)?>
 							<i class="fa-solid fa-person-praying" style="transform: rotateY(180deg);"></i>
 						</div>
