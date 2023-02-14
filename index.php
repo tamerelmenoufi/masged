@@ -49,13 +49,13 @@
 			Dados = ()=>{
 
 					$.ajax({
-						url:"telas/horario_dia.php",
+						url:"telas/azan.php",
 						success:function(dados){
 							$(".masged").html(dados);
 						},
 						error:function(){
 							$.ajax({
-								url:"telas/horario_dia.php",
+								url:"telas/azan.php",
 								success:function(dados){
 									$(".masged").html(dados);
 								}
@@ -66,9 +66,7 @@
 
 			}
 
-			setInterval(() => {
-				Dados();
-			}, 5000);
+			Dados();
 
 
 		})
