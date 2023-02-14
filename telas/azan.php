@@ -123,7 +123,7 @@
 						data
 					},
 					success:function(dados){
-						// window.location.href='./';
+						window.location.href='./';
 					}
 				});
 			});
@@ -137,7 +137,7 @@
 						data
 					},
 					success:function(dados){
-						// window.location.href='./';
+						window.location.href='./';
 					}
 				});
 			});
@@ -151,7 +151,7 @@
 						acao
 					},
 					success:function(dados){
-						//
+						console.log(dados);
 					}
 				});
 			});
